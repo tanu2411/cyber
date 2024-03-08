@@ -1,0 +1,8 @@
+#open  root terminal kali
+sudo apt install sublist3r
+sublist3r -d packtpub.com -t 3 -e bing
+maltego
+#search maltego app and select Maltego CE(Free) then login click next then enter  any web browser(firefox) then next then choose FootPrint L1 and next enter domain name : cyberhia.com
+#install OSFR
+sudo  apt install python3-pip
+sudo pip3 install osframework
