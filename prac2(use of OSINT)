@@ -6,3 +6,4 @@ maltego
 #install OSFR
 sudo  apt install python3-pip
 sudo pip3 install osframework
+sudo mailfy -n cyberhia
