@@ -2,8 +2,14 @@
 sudo apt install sublist3r
 sublist3r -d packtpub.com -t 3 -e bing
 maltego
-#search maltego app and select Maltego CE(Free) then login click next then enter  any web browser(firefox) then next then choose FootPrint L1 and next enter domain name : cyberhia.com
-#install OSFR
-sudo  apt install python3-pip
+#search maltego app and select Maltego CE(Free)Once that is done, run Maltego via the application launcher on Linux. On your
+initial run of Maltego, you will be required to agree to some agreements. One of
+them involves signing into your verified maltego account.
+# Once you have successfully signed in, you will have to create a new “Machine”.You will have to select the “Footprint L1” machine followed by the name of thewebsite that you want to data mine.
+
+ #This is what the final output will look like after the website has been data mined byMaltego. It will provide a comprehensive tree structure that will explain the structure as well as the data that is used
 sudo pip3 install osframework
+sudo usufy -n cyberhia
 sudo mailfy -n cyberhia
+# open browser "https://cachedviews.com" enter url below "http://cyberhia.com"
+
