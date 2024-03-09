@@ -1,1 +1,16 @@
-#
+#open root terminal kali
+sudo apt update
+sudo apt upgrade
+sudo apt dist-upgrade
+sudo nmap -vv -p 80 --scripts http -waf-detect www.testfire.net
+sudo wafw00f www.hdfcbank.com
+Number of requests:2
+sudo lbd www.hdfcbank.com
+sudo wpscan --rl https://wwww.durhamcricket.co.uk/
+sudo distibuter
+#owasp window will appear 
+
+
+
+
+
