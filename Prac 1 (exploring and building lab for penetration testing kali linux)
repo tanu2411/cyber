@@ -1,0 +1,8 @@
+install vmware workstation player 17. double click and install it and click on next button
+accept the license and click on next
+select add vmware workstation console tools into system path and click on next
+select both check box in user experience setting and click on next
+vmware workstation 17 is ready to install
+click on open a virtual machine
+now give name to your virtual machine and redirect folder where your .iso file is located
+click on create a new virtual machine
