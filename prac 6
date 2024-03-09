@@ -8,9 +8,19 @@ Number of requests:2
 sudo lbd www.hdfcbank.com
 sudo wpscan --rl https://wwww.durhamcricket.co.uk/
 sudo distibuter
-#owasp window will appear 
-
-
-
-
-
+#owasp window will appear  add file extension as"php click on start then add target url as "http://testfire.net:80/ the select directory usr/share/dirbuster/wordlists/directory-list-1.0.txt add file extension as html then click on start 
+#open root terminal kali
+sudo apt install httrack
+sudo httrack http:/testfire.net -O copied.site
+#go to file manager select kali ,then select copied_site 
+#open root terminal kali
+sudo httrack http://10.10.10.100/mullidae -0 local-Mullidae
+#search burpsit app create temporary project ,click on next select "Use burp default" then click on start
+# click on target ,click on open browser,click on site map ,select first site 
+#type the site in burpuite browser "http://testfire.net"
+#then select  site map right click on site "http://testfire.net" then select "add to scope"
+#go to dashboard select "New live task" select  "Live passive crawl" then "proxy" then "everything" then click on ok
+#then click on scan configuration add configuration name as "DeepCrawl"
+#tick on Links,the item itself, Item on same domain,URLs in scope,Suite scope then save
+#click on scan configuration select DeepCrawl then click on ok
+#go to proxy select Intercept then click on Interception is on and off the interception
