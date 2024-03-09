@@ -1,0 +1,36 @@
+#root terminal kali
+man nmap
+#open metasploitable2 machine
+ipconfig
+#Using Kali perform port scanning using nmap on the target machine by running the
+given command shown below
+sudo nmap -v -p 0-65535  -A 192.168.(metasploitable ip) -oA metasplotable2
+ls
+cat metasploitable2.nmap
+sudo nmap -sS -O 192.168.(metasploitable ip)
+sudo nmap -sV 192.168.(metasploitable ip)
+#seach legion app start then click to add host ,Specify the IP Subnet and Bits as shown and click on submit.After submitting it will start scanning all the available hosts in that subnet and you will see the Windows XP and Metasploitable2 Operating systems also displayed in the scan.
+#To find out the host IP Address, IPv6 address and Mail Servers 
+host -t ns packtpub.com
+host -t mx packtpub.com
+nslookup
+(>)set type=ns
+(>)packtpub.com
+dig packtpub.com
+dig packtpub.com mx
+dig packtpub.com A
+dig packtpub.com ANY
+dig packtpub.com CNAME
+dig packtpub.com GID
+dig packtpub.com HINFO
+dig packtpub.com MB
+dig packtpub.com MINFO
+dig packtpub.com MR
+dig packtpub.com MX
+dig packtpub.com NS
+dig packtpub.com PTR
+dig packtpub.com SOA
+dig packtpub.com TXT
+dig packtpub.com UID
+dig packtpub.com UINFO
+dig packtpub.com WKS
