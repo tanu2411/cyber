@@ -1,7 +1,7 @@
 #root terminal kali
 man nmap
 #open metasploitable2 machine
-ipconfig
+ifconfig
 #Using Kali perform port scanning using nmap on the target machine by running the
 given command shown below
 sudo nmap -v -p 0-65535  -A 192.168.(metasploitable ip) -oA metasplotable2
