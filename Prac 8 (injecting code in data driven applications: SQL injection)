@@ -9,7 +9,7 @@ if config
 sqlmap -h
 sqlmap -u 'copied link' --dbs --dump --batch
 sqlmap -u 'copied link' --dbs 
-#change dbname from metasploit
+#change dbname from metasploitabe machine
 sudo nano /var/www/mutillidae/config.inc
 #change dbname metasploit to owasp10
 #save the changes with ctrl+O and then exit
